@@ -1,0 +1,40 @@
+/*
+ * Only use by links dir
+ * links.css
+ * @Author Korben Zhang
+ * @CreateDate 2012-04-26
+ */
+
+.links{
+	clear:left;
+}
+
+.links a{
+	margin:2px 5px;
+	width:90px;
+	height:25px;
+	float:left;
+	display:block;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.links a:hover{
+	background:#99FF99;
+}
+
+.links h2{
+	background:#F1F1F1;
+	font-size:1em;;
+	color:green;
+	border-bottom:1px solid silver;
+}
+
+a.nl{
+	display:inline;
+	float:none;
+}
+
+a.nl:hover{
+	background:transparent;
+}

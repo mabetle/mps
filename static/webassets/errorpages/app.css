@@ -1,0 +1,18 @@
+/*
+ * app.css
+ */
+
+#main{
+	border:1px solid red;
+}
+
+
+.title{
+	padding:5px;
+	background:red;
+}
+
+.content{
+	padding:20px 10px;
+}
+

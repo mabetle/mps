@@ -1,0 +1,123 @@
+/*
+ * layout.css
+ * @author Korben Zhang
+ */
+
+/* margin top for header bar */
+body{
+	margin-top:80px;
+}
+
+#header {
+	height: 65px;
+	width: 100%;
+	padding-top: 3px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index:999;
+}
+
+#logo {
+	height: 75px;
+	width: 250px;
+	float: left;
+}
+
+.header_nav,
+.header_user {
+	height: 75px;
+	margin:0px;
+}
+
+.header_user{
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	z-index:999;
+	float:right;
+	vertical-align:top;
+}
+
+.header_nav ul{
+
+}
+
+.header_nav li{
+	float: left;
+	width: 60px;
+	height: 60px;
+	list-style: none;
+	display: block;
+	text-align: center;
+	margin: 0px 3px;
+	vertical-align: middle;
+}
+
+.header_user span.hu_user{
+	line-height: 62px;
+	vertical-align: top;
+}
+
+.header_user span.hu_logout {
+	display:inline-block;
+	line-height: 62px;
+	height: 62px;
+	margin: 0px 3px;
+	margin-right:15px;
+}
+
+.header_nav a,
+.header_user a {
+	text-decoration: none;
+}
+
+.header_user a{
+	line-height:62px;
+}
+
+#main {
+	margin: 2px 20px;
+	z-index:0;
+	/*height: 100%;*/
+}
+
+#main-menu,
+#main_nav,
+#menu-orgs {
+	width: 200px;
+	float: left;
+	height: auto;
+	border: 1px solid gray;
+	background: #f1f1f1;
+	padding:2px;
+}
+
+#main-content,
+#main_content {
+	margin-left: 210px;
+	position:absolute;
+	z-index:500;
+	padding:2px;
+}
+
+
+.header_nav ul li a{
+	display:inline-block;
+	width: 60px;
+	height: 60px;
+}
+
+#logo a.logo_link{
+	display:block;
+	height:75px;
+	width:250px;
+}
+
+#menu-years li,
+#menu-org-flags li{
+	float: left;
+	list-style: none;
+}
+
+

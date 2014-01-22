@@ -1,0 +1,95 @@
+/*
+ * Override Tapestry default css style.
+ * @author Korben Zhang
+ **/
+
+/*
+Bean Display cannot show null value properly.
+*/
+
+table.t-data-grid thead tr th {
+    text-align: center;
+    white-space:pre-wrap;
+}
+
+dl.t-beandisplay{
+	clear:left;
+	margin:50px;
+	padding: 2px;
+	display: block;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	background: #f1f1f1;
+	border: 2px outset silver;
+	width: 80%;
+	height:auto;
+}
+
+dl.t-beandisplay dt{
+		color:green;
+		font-size:11pt;
+		height:16pt;
+		width: 250px;
+		display: block;
+		float: left;
+		text-align: right;
+		padding-right: 5px;
+		vertical-align: middle;
+}
+
+/*dl.t-beandisplay dt{
+    white-space: nowrap;
+    width: 350;
+}*/
+
+dl.t-beandisplay dd{
+		color:blue;
+		font-size:11pt;
+		height:16pt;
+		display: block;
+		width:500px;
+		-webkit-margin-start: 40px;
+}
+
+.t-beandisplay-label{
+		color:green;
+		font-size:1.1em;
+		height:16pt;
+}
+
+.t-beandisplay-value{
+		color:blue;
+		font-size:11pt;
+		height:1.6em;
+}
+
+table.t-data-grid tr{
+	text-align:center;
+}
+
+
+.t-beaneditor {
+	clear:left;
+	display: block;
+	background: #ffc;
+	border: 2px outset green;
+	padding: 2px;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+
+div.t-error ul li {
+	margin-left:40px;
+}
+
+div.t-error LI {
+    margin-left: 20px;
+}
+
+.t-exception-report,.t-env-data{
+	clear:both;
+}
+
+.t-beaneditor-submit{
+	margin-left:250px;
+}
+
