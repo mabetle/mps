@@ -1,0 +1,217 @@
+/**
+ * @author Korben Zhang
+ * app.css
+ */
+div.reply-content,div.simple-content {
+	background: #d0d0d0;
+	margin: 2px 5px;
+	height: auto !important;
+	height: 50px;
+	min-height: 50px;
+}
+#page-title {
+	clear:both;
+}
+#page-title h2 {
+	padding: 2px 5px;
+}
+.bar-cool {
+	padding: 3px;
+	margin: 2px 2px 0;
+	background: #eee;
+	border-color: #999 #EEE #EEE #999;
+	border-width: 3px;
+	border-style: solid;
+}
+.required-marker {
+	color: red;
+	font-weight: bold;
+}
+.message-no-result {
+	color: #FF0000;
+}
+.tasknav {
+	margin-bottom: 2px;
+}
+.mainTitle {
+	font-weight: bold;
+	font-size: 1.4em;
+	color: blue;
+}
+.commentTitle,replyTitle {
+	font-weight: bold;
+	color: green;
+}
+.menu-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.menu-item {
+	background: transparent;
+	color: white;
+}
+.menu-group {
+	color: black;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: left;
+	border: 1px solid #325e5e;
+}
+.article-title {
+	text-align: center;
+	vertical-align: middle;
+	padding: 2px;
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+}
+.appMenuTitle {
+	margin: 2px 0px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 2px 0px;
+	font-weight: bold;
+	font-size: 1.4em;
+	background: #244EDD;
+	color: white;
+}
+.scope-left-menu {
+	padding: 2px 2px;
+}
+.scope-right-content {
+	margin: 2px 3px;
+	padding: 2px 3px;
+}
+.restDay {
+	background: gray;
+}
+/* USE IN HR */
+.s1,.hr-s1 {
+	border: 1px solid blue;
+	width: 90%;
+}
+.append,.hr-append {
+	border: 1px solid blue;
+	width: 50%;
+}
+.auto-hr {
+	white-space: normal;
+	word-break: break-all;
+	overflow: hidden;
+}
+.sqltableTitle {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.article-content,.post-content,.mail-content {
+	background: #EEEEEE;
+	padding: 10px 20px;
+}
+/* panel */
+div.panel {
+	float: left;
+	width: 250px;
+	background-color: #99B14E;
+	height: auto !important;
+	height: 500px;
+	min-height: 500px;
+	margin-right: 10px;
+}
+div.panel ul {
+	margin-left: 1px;
+	padding: 15px 2px;
+}
+div.panel ul li {
+	list-style-type: circle;
+}
+/* panel */
+div.options {
+	background-color: #cde6c7;
+	padding: 5px 20px;
+}
+/* ul li */
+ul.plain li {
+	margin: 2px;
+	float: left;
+	list-style: none;
+	border-right: 0px solid black;
+	text-align: center;
+	border-collapse: collapse;
+	white-space: wrap;
+}
+ul.plain li a {
+	display: block;
+	width: 150px;
+	text-align: center;
+	vertical-align: middle;
+}
+ul.left-menu {
+	text-align: left;
+}
+li.left-menu-item {
+	text-align: left;
+}
+ul.right-menu {
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	color: #CCCCCC;
+}
+/* table */
+.table-title {
+	color: black;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+}
+.table-group {
+	color: black;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+}
+.table-item {
+	color: blue;
+	text-align: center;
+}
+.table-value {
+	color: black;
+	text-align: left;
+}
+.table-num-value {
+	color: black;
+	text-align: right;
+	font-weight: bold;
+}
+table.layout {
+	border: 0px ridge gray;
+}
+table.layout tr td {
+	border: 0px ridge gray;
+	text-align: left;
+	vertical-align: top;
+}
+table.layout tr:hover {
+	background: none;
+}
+div.title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+div.list-links{
+	
+}
+
+div.list-links a{
+	display: block;
+	padding:4px;
+}
+
+
+form div{
+	margin: 2px 0px;
+}
+

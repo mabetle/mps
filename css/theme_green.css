@@ -1,0 +1,44 @@
+/*
+ * theme_green.css
+ * @author: Korben Zhang
+ */
+#page-title {
+	color: green;
+	border-radius: 10px;
+}
+#page-title h2 {
+	color: green;
+}
+.apps h2,.apps h3,.seperate {
+	background: #f1f1f1;
+	font-size: 1em;
+	color: green;
+	border-bottom: 1px solid silver;
+	height: 20px;
+}
+input:-webkit-autofill,textarea:-webkit-autofill,input,textarea {
+	background-color: #99FF99;
+	background-image: none;
+	color: rgb(0, 0, 0);
+}
+
+.linear_green_yellow{
+	background:-moz-linear-gradient(45deg, green, yellow);
+	background:-webkit-linear-gradient(45deg, green, yellow);
+	background:-ms-linear-gradient(45deg, green, yellow);
+	background:-o-linear-gradient(45deg, green, yellow);
+	background:linear-gradient(45deg, green,yellow);
+}
+/* Gradient background, test in IE and Firefox. 
+ **/
+.bg_header{
+	background-image:linear-gradient(45deg,green,yellow);
+	background-image:-ms-linear-gradient(45deg, green, yellow);
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='green',endColorStr='yellow',gradientType='1'); 
+}
+
+.bg_header_old{
+	background-image:linear-gradient(45deg,green,yellow);
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='green',endColorStr='yellow',gradientType='1'); 
+}
+

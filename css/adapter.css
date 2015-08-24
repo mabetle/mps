@@ -1,0 +1,12 @@
+@media screen and (max-device-width: 480px) {
+	#divMain {
+		float: none;
+		width: auto;
+	}
+	#divSidebar {
+		display: none;
+	}
+}
+img {
+	max-width: 98%;
+}

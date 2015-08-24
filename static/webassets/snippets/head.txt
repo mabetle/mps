@@ -1,8 +1,0 @@
-
-		<link href="http://static.mabetle.com/webassets/css/html.css" rel="stylesheet" type="text/css" />
-		<link href="http://static.mabetle.com/webassets/css/layout.css" rel="stylesheet" type="text/css"/>
-
-
-		<link rel="shortcut icon" href="http://static.mabetle.com/webassets/images/favicon.ico" />
-
-		<script src="http://static.mabetle.com/webassets/js/layout.js" type="text/Javascript" >//</script>

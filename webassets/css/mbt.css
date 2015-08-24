@@ -1,0 +1,154 @@
+/**
+ * for mabetle style
+ * mbt.css
+ */
+ 
+.mbt-lines {
+
+}
+
+.mbt-lines p {
+	margin: 10px 3px;
+	padding: 10px 3px;
+}
+div.mbt-error {
+	border: 1px solid red;
+	padding: 0px;
+	margin: 2px;
+	border-radius: 10px;
+}
+div.mbt-error div {
+	padding: 2px;
+	display: block;
+	margin: 0px;
+	background-color: red;
+	font-weight: bold;
+	border-radius: 10px 10px 0px 0px;
+}
+.mbt-error {
+	border: 1px solid red;
+	padding: 0px;
+	margin: 2px;
+	display: block;
+	margin: 0px;
+	background-color: pink;
+	font-weight: bold;
+	border-radius: 10px;
+}
+div.mbt-contain {
+	border: 1px solid #809FFF;
+	padding: 0px;
+	margin: 2px 2px;
+	border-radius: 10px;
+}
+div.mbt-contain div.mbt-contain-head {
+	padding: 2px;
+	margin: 0px;
+	display: block;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #809FFF;
+	color: white;
+}
+div.mbt-contain div.mbt-contain-content {
+	padding: 2px;
+	margin: 0px;
+	background-color: #DCDCDC;
+	border-radius: 10px;
+}
+table.mbt-table {
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 2px;
+}
+table.mbt-table TH {
+	border: 1px solid silver;
+	background-color: #809FFF;
+	color: white;
+}
+table.mbt-table TD {
+	border: 1px solid silver;
+	margin: 0px;
+	padding: 2px;
+}
+table.mbt-data-table {
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 2px;
+}
+table.mbt-data-table TH {
+	border: 1px solid silver;
+	background-color: #809FFF;
+	color: white;
+}
+table.mbt-data-table TD {
+	border: 1px solid silver;
+	margin: 0px;
+}
+div.mbt-data-grid {
+	border-radius: 10px;
+}
+table.mbt-data-grid {
+	border-collapse: collapse;
+	border-left: 1px solid silver;
+}
+table.mbt-data-grid THEAD TR {
+	color: white;
+	background-color: #809FFF;
+}
+table.mbt-data-grid THEAD TR TH {
+	text-align: left;
+	padding: 3px;
+	white-space: nowrap;
+	border-right: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
+table.mbt-data-grid TBODY TR TD {
+	border-right: 1px solid silver;
+	border-bottom: 1px solid silver;
+	padding: 2px;
+}
+/* message  */
+div.mbt-msg {
+	border: 1px solid green;
+	padding: 0px;
+	margin: 2px;
+	border-radius: 10px;
+}
+div.mbt-msg div {
+	padding: 2px;
+	display: block;
+	margin: 0px;
+	background-color: #99B14E;
+	font-weight: bold;
+	border-radius: 10px 10px 0px 0px;
+}
+div.mbt-msg ul li,div.mbt-error ul li {
+	margin-left: 40px;
+}
+
+
+/* debug */
+div.mbt-debug {
+	border: 1px solid green;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+	width:100%;
+	display: block;
+	background: #f1f1f1;
+}
+div.mbt-debug div {
+	padding: 2px;
+	display: block;
+	margin: 0px;
+	background-color: #99B14E;
+	font-weight: bold;
+}
+div.mbt-debug ul li{
+	margin-left: 40px;
+}
+

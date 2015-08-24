@@ -1,0 +1,20 @@
+
+div.app_inform{
+	padding:5px;
+	border: 1px solid #f1f1f1;
+	background: #CCCC00;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	width:300px;
+	height:200px;
+}
+
+div.app_inform ul{
+
+}
+
+div.app_inform ul li {
+	
+}
+

@@ -1,0 +1,129 @@
+/*
+ * Define some quick use properties
+ * @author Korben Zhang
+ * @version 1.0.0
+ * @create: 2008-3-12
+ * @last update: 2012-4-20
+ **/
+/* Front color */
+.red {
+	color: red;
+}
+.blue {
+	color: blue;
+}
+.green {
+	color: green;
+}
+.yellow {
+	color: yellow;
+}
+.white {
+	color: white;
+}
+.gray {
+	color: gray;
+}
+/* Background color*/
+.bg-red {
+	background: red;
+}
+.bg-blue {
+	background: blue;
+}
+.bg-green {
+	background: green;
+}
+.bg-yellow {
+	background: yellow;
+}
+.bg-white {
+	background: white;
+}
+.bg-gray{
+	background: gray;
+}
+.bg-silver{
+	background: silver;
+}
+/* Font Size*/
+.fs18 {
+	font-size: 1.8em;
+}
+.fs16 {
+	font-size: 1.6em;
+}
+.fs14 {
+	font-size: 1.4em;
+}
+.fs12 {
+	font-size: 1.2em;
+}
+.fs11 {
+	font-size: 1.1em;
+}
+.fs10 {
+	font-size: 1em;
+}
+.fs9 {
+	font-size: 0.9em;
+}
+/* Font Weight */
+.fw-bold,.bold {
+	font-weight: bold;
+}
+.no-margin-padding {
+	margin: 0px;
+	padding: 0px;
+}
+.no-margin {
+	margin: 0px;
+}
+.no-padding {
+	padding: 0px;
+}
+/* Border */
+.no-border {
+	border: 0px;
+}
+.border1 {
+	border: 1px;
+}
+.border2 {
+	border: 2px;
+}
+/* Position */
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.top {
+	vertical-align: top;
+}
+.middle {
+	vertical-align: middle;
+}
+.bottom {
+	vertical-align: bottom;
+}
+/* Visiable */
+.hide {
+	display: none;
+}
+.nowrap {
+	white-space: nowrap
+}
+.clear {
+	clear: both;
+}
+.clear-left {
+	clear: left;
+}
+.clear-right {
+	clear: right;
+}

@@ -1,0 +1,134 @@
+/*
+ * basic.css
+ */
+/* odd and even */
+.odd {
+	background-color: #f1f1f1;
+}
+.even {
+	background-color: #FFFFCC;
+}
+/* error  */
+.error {
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: yellow;
+	padding: 10px 5px;
+}
+/*   */
+.notice {
+	color: green;
+	font-size: 16px;
+	background-color: #9AAFE5;
+	font-weight: bold;
+	padding: 10px 5px;
+}
+.info {
+	color: #069;
+}
+.alert {
+	background-color: #ff9;
+}
+.source {
+	background-color: #fff;
+	color: #000;
+	border-right: 1px solid #888;
+	border-left: 1px solid #888;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	margin-right: 7px;
+	margin-left: 7px;
+	margin-top: 4px;
+}
+.source pre {
+	margin-right: 7px;
+	margin-left: 7px;
+}
+.subreset {
+	background-color: #e8f7f7;
+	font-family: arial, helvetica, tahoma, verdana, sans-serif;
+	background: #b8cece;
+	border-bottom: 1px solid #325e5e;
+	border-right: 1px solid #325e5e;
+	border-left: 1px solid #b8cece;
+	border-top: 1px solid #b8cece;
+	color: #000000;
+	text-decoration: none;
+	width: 80px;
+}
+.validate-require {
+	color: blue;
+	font-weight: bold;
+}
+.link {
+	margin: 2px;
+	cursor: hand;
+	color: blue;
+}
+.link:hover,.link:focus {
+	color: red;
+}
+.docs {
+	line-height: 1.4;
+}
+.date,.time,.datetime {
+	color: gray;
+	font-style: italic;
+}
+.author,.user-name,.username {
+	color: green;
+	font-weight: bold;
+}
+/* field  */
+.field label {
+	font-weight: bold;
+	color: green;
+}
+.field-label {
+	color: green;
+	text-align: right;
+}
+.field-error {
+	background-color: red;
+	color: white;
+}
+.label-error {
+	color: red;
+}
+/* content  */
+.content {
+	background: #d0d0d0;
+	padding: 2px 5px;
+	height: auto !important;
+	height: 300px;
+	min-height: 300px;
+}
+.seperate {
+	background: #f1f1f1;
+	font-size: 1em;
+	color: black;
+	border-bottom: 1px solid silver;
+	height: 20px;
+}
+.radius,
+.content,
+.reply-content,
+.simple-content,
+#page-title,
+.bar-cool,
+.appMenuTitle,
+.article-content,.post-content,.mail-content,
+.panel,
+.options,
+.right-menu,
+.form,
+form,
+.error,
+.notice,
+.info,
+.alert,
+.doc,
+.page_nav_menu,p,table,input[type="text"],input[type="password"],textarea,select,h1,h2,h3,h4,h5,h6,li,a{
+	border-radius: 10px;
+}

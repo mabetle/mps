@@ -1,0 +1,40 @@
+/*
+ * @author Korben Zhang
+ * refference: layout.css
+	//yahoo purple
+	#f0f7ff
+	#A9CFE3
+	#f3f3f
+ */
+.bg_head_img{
+	background: transparent url(../images/bg_head.png) repeat-x;
+}
+.bg_logo {
+	background: transparent url(../images/crec_wage/crec-wage-logo.gif) no-repeat;
+}
+.pageHeader_nav li:hover,.pageHeader_user a:hover {
+	display: inline-block;
+	background: url('../images/app/pageHeader_nav_mouseover_bg.png') no-repeat;
+	background-size: 55px 55px;
+	background-position: center center;
+}
+span.nav_item_bg {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+span.nav_item_home {
+	background: url('../images/icons/big/home.png') no-repeat;
+	background-position: center center;
+	background-size: 50px 50px;
+}
+span.nav_item_link {
+	background: url('../images/icons/big/apps.png') no-repeat;
+	background-position: center center;
+	background-size: 50px 50px;
+}
+span.nav_item_logout {
+	background: url('../images/icons/big/logout.png') no-repeat;
+	background-position: center center;
+	background-size: 50px 50px;
+}

@@ -1,0 +1,24 @@
+/*
+ *apps_no_icon.css
+ */
+/*div.apps_no_icon */
+div.apps_no_icon {
+	clear: both;
+	margin-top: 5px;
+}
+div.apps_no_icon ul {
+}
+div.apps_no_icon ul li {
+	width: 120px;
+	line-height: 1.6em;
+	list-style: none;
+	text-align: left;
+}
+div.apps_no_icon ul li:hover {
+	background: #99FF99;
+}
+div.apps_no_icon ul li a {
+	color: blue;
+	display: block;
+	text-decoration: none;
+}

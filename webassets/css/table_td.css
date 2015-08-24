@@ -1,0 +1,18 @@
+/**
+ * table td element style
+ */
+/* td default align to left, the following class align to center*/
+td.theYear,td.theMonth,td.theDate,td.actions,td.operations,td.view,td.createTime,td.updateTime,td.submitDate,td.auditDate,td.flag,td.tags,td.userName,td.taskDefineUserName,td.sendUserName,td.nickname,td.realName,td.enabled,td.email,td.officePhone,td.mobilePhone,td.groupName,td.smallClass,td.seqCode,td.status,td.fileNo,td.deptName,td.orgName
+	{
+	text-align: center;
+}
+/* no wrap td */
+td.rowType,td.flag,td.flag,td.orgName,td.deptName,td.view,td.actions,td.operations,td.flag,td.fileno,td.dept,td.jobPosition,td.JobTitle,td.inCharge,td.remark,td.orgName,td.flag,td.realName,td.operate,td.div.operate
+	{
+	white-space: nowrap
+}
+/* align to left td*/
+td.taskName,td.deptName,td.positionName,td.SchemeName,td.comment,td.description,td.digest,td.title,td.readme,td.validResult,td.schemeName,td.content,td.sendTo
+	{
+	text-align: left;
+}

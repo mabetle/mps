@@ -1,0 +1,16 @@
+div.misc-user{
+	float:right;
+	text-align:left;
+	display:block;
+	position:fixed;
+	top:10px;
+	right:5px;
+}
+
+a.misc-user-link{
+	background:silver;
+	padding:1px 10px;
+	margin:0px;
+	text-decoration: none;
+	color:black;
+}

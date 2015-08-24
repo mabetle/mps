@@ -1,0 +1,16 @@
+/*
+ * app.css
+ */
+#main {
+	border: 1px solid red;
+	border-radius: 20px;
+}
+.title {
+	padding: 5px;
+	background: red;
+	border-radius: 20px 20px 0px 0px;
+}
+.content {
+	padding: 20px 10px;
+	border-radius: 0px 0px 20px 20px;
+}
