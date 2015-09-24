@@ -8,7 +8,7 @@
 
 /* button or button link style */
 button, .button,td.actions a,.buttons a,.t-beaneditor-submit,input[type="button"],input[type="submit"],#submit
-	{
+{
 	margin: 0px;
 	padding: 1px 8px;
 	text-decoration: none;
@@ -20,8 +20,8 @@ button, .button,td.actions a,.buttons a,.t-beaneditor-submit,input[type="button"
 	border-radius: 20px;
 }
 /* button hover or focus style */
-.buttons a:hover,td.actions a:hover,td.actions a:focus,.buttons a:focus,.button:hover,.button:focus,input[type='button']:hover,input[type='button']:focus,input[type='submit']:hover,input[type='submit']:focus,#submit:hover,#submit:focus,.t-beaneditor-submit:hover,.t-beaneditor-submit:focus
-	{
+button:focus,button:hover,.buttons a:hover,td.actions a:hover,td.actions a:focus,.buttons a:focus,.button:hover,.button:focus,input[type='button']:hover,input[type='button']:focus,input[type='submit']:hover,input[type='submit']:focus,#submit:hover,#submit:focus,.t-beaneditor-submit:hover,.t-beaneditor-submit:focus
+{
 	border-color: #999 #EEE #EEE #999;
 	background-color: pink;
 }
