@@ -14,31 +14,18 @@
 		<script src="/mps/public/libs/bootstrap/3.3.4/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
-	<div id="pageHeader" class="bg_header">
-		<div id="logo">
-			<a href="/" target="_self"
-				class="logo_link"
-				title="{{msg . "label.home"}}">
-				<img src="/mps/public/wage.crec/app-logo.gif" />
-			</a>
+
+		<div id="pageHeader" class="bg_header">
+			<div id="logo">
+				<a href="/" target="_self"
+					class="logo_link"
+					title="{{msg . "label.home"}}">
+					<img src="/mps/public/wage.crec/app-logo.gif" />
+				</a>
+			</div>
 		</div>
-		<div id="misc-user" class="misc-user"></div>
-	</div>
-
-	<div id="login"></div>
-
-	<div id="simpleLogin"></div>
 
 
-	<script type="text/javascript" charset="utf-8">
-
-$("#misc-user").load("/AccountAjax/CurrentUserHtml");
-
-$("#login").load("/AccountAjax/LoginHtml");
-
-$("#simpleLogin").load("/AccountAjax/SimpleLoginHtml");
-
-	</script>
 
 	</body>
 </html>
