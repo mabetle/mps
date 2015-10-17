@@ -38,7 +38,6 @@ dl.t-beandisplay dt {
 dl.t-beandisplay dd {
 	color: blue;
 	font-size: 11pt;
-	height: 16pt;
 	display: block;
 	-webkit-margin-start: 40px;
 }
@@ -53,7 +52,7 @@ dl.t-beandisplay dd {
 	height: 1.6em;
 }
 table.t-data-grid tr {
-	text-align: center;
+	/*text-align: center;*/
 }
 DIV.t-beaneditor {
 	clear: left;
