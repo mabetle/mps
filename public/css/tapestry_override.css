@@ -22,8 +22,6 @@ dl.t-beandisplay {
 }
 dl.t-beandisplay dt {
 	color: green;
-	font-size: 11pt;
-	height: 16pt;
 	width: 250px;
 	display: block;
 	float: left;
@@ -37,7 +35,6 @@ dl.t-beandisplay dt {
 }*/
 dl.t-beandisplay dd {
 	color: blue;
-	font-size: 11pt;
 	display: block;
 	-webkit-margin-start: 40px;
 }
