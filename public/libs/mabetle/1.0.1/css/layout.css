@@ -9,7 +9,7 @@
 	position: fixed;
 	left: 0px;
 	top: 0px;
-	background: transparent url(/mps/static/webassets/images/bg_head.png) repeat-x;
+	background: transparent url(/mgs/static/webassets/images/bg_head.png) repeat-x;
 	padding-top: 3px;
 	z-index:999;
 }
@@ -17,7 +17,7 @@
 #logo {
 	height: 75px;
 	width: 250px;
-	background: transparent url(/mps/static/webassets/images/app-logo.png) no-repeat;
+	background: transparent url(/mgs/static/webassets/images/app-logo.png) no-repeat;
 	float: left;
 }
 
@@ -113,11 +113,11 @@ div.title {
 }
 
 .header_nav li:hover {
-	background: url('/mps/static/webassets/images/app/header_nav_mouseover_bg.png') no-repeat 1px 0;
+	background: url('/mgs/static/webassets/images/app/header_nav_mouseover_bg.png') no-repeat 1px 0;
 }
 
 .apps li:hover{
-	background: url('/mps/static/webassets/images/app/appbutton_mouseover_bg.png') no-repeat 1px 0;
+	background: url('/mgs/static/webassets/images/app/appbutton_mouseover_bg.png') no-repeat 1px 0;
 }
 
 .apps img {

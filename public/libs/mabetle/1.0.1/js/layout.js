@@ -4,8 +4,8 @@
 var header_str="<div id='logo'>"+
 	"<a href='/' style='text-decoration:none;'  target='_self'><span style='height:75px;width:250px;display:block;'></span></a></div>"+
 	"<div class='header_nav'><ul>"+
-	"<li><a href='/' target='_self'><img src='/mps/static/webassets/images/icons/big/home.png'></img></a></li>"+
-	"<li><a href='/links/' target='_self'><img src='/mps/static/webassets/images/icons/big/apps.png'></img></a></li>"+
+	"<li><a href='/' target='_self'><img src='/mgs/static/webassets/images/icons/big/home.png'></img></a></li>"+
+	"<li><a href='/links/' target='_self'><img src='/mgs/static/webassets/images/icons/big/apps.png'></img></a></li>"+
 	"</ul></div>";
 
 var header_str_full = "<div id='header'>"+header_str+"</div>";

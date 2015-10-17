@@ -220,7 +220,7 @@ h1{
 }
 
 .header_nav li:hover {
-	background: url('http://www.mabetle.com/mps/static/webassets/images/app/header_nav_mouseover_bg.png') no-repeat 1px 0;
+	background: url('http://www.mabetle.com/mgs/static/webassets/images/app/header_nav_mouseover_bg.png') no-repeat 1px 0;
 }
 
 h3{
@@ -959,7 +959,7 @@ table.layout tr td{
 }
 
 .apps li:hover{
-	background: url('http://www.mabetle.com/mps/static/webassets/images/app/appbutton_mouseover_bg.png') no-repeat 1px 0;
+	background: url('http://www.mabetle.com/mgs/static/webassets/images/app/appbutton_mouseover_bg.png') no-repeat 1px 0;
 }
 
 .header_nav a {

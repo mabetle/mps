@@ -16,7 +16,6 @@ dl.t-beandisplay {
 	display: block;
 	background: #f1f1f1;
 	border: 2px outset silver;
-	width: 80%;
 	height: auto;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -88,7 +87,7 @@ th a:hover{
 	background: transparent;
 }
 .t-zone,.tapestry-zone{
-	width:800px;
+	/*width:800px;*/
 }
 
 table.t-data-grid {
