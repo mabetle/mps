@@ -1,0 +1,33 @@
+#footer{
+	clear:both;
+	border:0px;
+	margin: 0px;
+	padding: 2px 10px;
+	width:100%;
+	position: fixed;
+	right:0px;
+	bottom: 0px;
+	background:#f1f1f1;
+	z-index: 100;
+	border-top:1px solid gray;
+	opacity: 0.8;
+}
+
+body, #main,#menu-orgs,#main-content{
+	margin-bottom:30px;
+	padding-bottom:30px;
+}
+
+div.locale-bar{
+	float:left;
+	padding-left:20px;
+}
+
+div.copyright{
+	float:right;
+}
+
+div.user-bar a, div.copyright a,div.locale-bar a{
+	color:blue;
+	margin:0px 2px;
+}

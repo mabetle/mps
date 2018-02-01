@@ -1,0 +1,127 @@
+/*
+ * layout.css
+ *  @author Korben Zhang
+ */
+
+#header {
+	height: 75px;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background: transparent url(/mgs/static/webassets/images/bg_head.png) repeat-x;
+	padding-top: 3px;
+	z-index:999;
+}
+
+#logo {
+	height: 75px;
+	width: 250px;
+	background: transparent url(/mgs/static/webassets/images/app-logo.png) no-repeat;
+	float: left;
+}
+
+.header_nav {
+	height: 75px;
+	margin:0px;
+}
+
+.header_nav ul {
+
+}
+.header_nav li {
+	float: left;
+	width: 62px;
+	height: 62px;
+	list-style: none;
+	display: block;
+	text-align: center;
+	margin: 0px 3px;
+	vertical-align: middle;
+}
+.header_nav a {
+	text-decoration: none;
+}
+.header_nav img {
+	border: none;
+	width: 60px;
+	height: 60px;
+}
+
+
+#main {
+	margin: 2px 20px;
+	z-index:0;
+	/*height: 100%;*/
+}
+#main-menu, #main_nav {
+	width: 200px;
+	float: left;
+	height: auto;
+	border: 1px solid gray;
+	background: silver;
+}
+#main-content, #main_content {
+	margin-left: 210px;
+}
+#footer {
+	height: 25px;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	background: silver;
+	display: none;
+}
+#footer ul {
+}
+#footer ul li {
+	float: right;
+	list-style: none;
+	display: block;
+	border-left: 1px solid gray;
+	margin: 4px 10px;
+	text-align: center;
+}
+#footer ul li a {
+	color: gray;
+	margin-left: 10px;
+}
+
+div.title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.apps {
+	clear: both;
+	margin-top: 50px;
+}
+.apps li {
+	float: left;
+	width: 100px;
+	height: 100px;
+	list-style: none;
+	display: block;
+	text-align: center;
+	margin-top:10px;
+	padding:5px;
+}
+.apps li a {
+	color: blue;
+	TEXT-DECORATION: none;
+}
+
+.header_nav li:hover {
+	background: url('/mgs/static/webassets/images/app/header_nav_mouseover_bg.png') no-repeat 1px 0;
+}
+
+.apps li:hover{
+	background: url('/mgs/static/webassets/images/app/appbutton_mouseover_bg.png') no-repeat 1px 0;
+}
+
+.apps img {
+	border: none;
+	width: 60px;
+	height: 60px;
+}

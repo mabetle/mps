@@ -1,0 +1,102 @@
+/*
+ * Override Tapestry default css style.
+ * @author Korben Zhang
+ **/
+/*
+Bean Display cannot show null value properly.
+*/
+table.t-data-grid thead tr th {
+	text-align: center;
+	white-space: pre-wrap;
+}
+dl.t-beandisplay {
+	clear: left;
+	margin: 50px;
+	padding: 2px;
+	display: block;
+	background: #f1f1f1;
+	border: 2px outset silver;
+	height: auto;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+dl.t-beandisplay dt {
+	color: green;
+	width: 250px;
+	display: block;
+	float: left;
+	text-align: right;
+	padding-right: 5px;
+	vertical-align: middle;
+}
+/*dl.t-beandisplay dt{
+    white-space: nowrap;
+    width: 350;
+}*/
+dl.t-beandisplay dd {
+	color: blue;
+	display: block;
+	-webkit-margin-start: 40px;
+}
+.t-beandisplay-label {
+	color: green;
+	font-size: 1.1em;
+	height: 16pt;
+}
+.t-beandisplay-value {
+	color: blue;
+	font-size: 11pt;
+	height: 1.6em;
+}
+table.t-data-grid tr {
+	/*text-align: center;*/
+}
+DIV.t-beaneditor {
+	clear: left;
+	display: block;
+	background: #f1f1f1;
+	border: 2px outset green;
+	padding: 2px;
+	border-radius: 10px;
+}
+div.t-error ul li {
+	margin-left: 40px;
+}
+div.t-error LI {
+	margin-left: 20px;
+}
+.t-exception-report,.t-env-data {
+	clear: both;
+}
+.t-beaneditor-submit {
+	margin-left: 250px;
+}
+div.t-data-grid-pager span.current {
+	border-radius: 10px;
+}
+th a{
+	margin:0px;
+	padding:0px;
+	background: transparent;
+}
+th a:hover{
+	background: transparent;
+}
+.t-zone,.tapestry-zone{
+	/*width:800px;*/
+}
+
+table.t-data-grid {
+	margin: 5px;
+	/*  border: 2px ridge gray;*/
+	/*border-collapse:separate;*/
+	/*  border-collapse:collapse;*/
+	border-spacing: 0px;
+	/*border-spacing:expression(this.cellSpacing=2); */
+	*border-collapse: collapse; /* IE7 and lower */
+}
+
+div.t-beaneditor-row input[type="submit"]{
+	margin-left:255px;
+}
+

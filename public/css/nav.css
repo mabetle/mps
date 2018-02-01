@@ -1,0 +1,79 @@
+
+
+
+.nav {
+	margin-top: 8px;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	margin-left:2px;
+	float: left;
+	position: relative;
+}
+
+.nav ul li:hover,.nav ul li.hover {
+	z-index: 100;
+}
+
+.nav ul a {
+	background: #f1f1f1;
+	color: blue;
+	text-decoration: none;
+	padding: 1px 10px;
+	display: block;
+	border: 1px solid #f1f1f1;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #EEE #999 #999 #EEE;
+	border-radius: 15px;
+	position: relative;
+	margin-left: -1px; /* collapses the left border */
+}
+
+.nav ul a:hover,.nav ul a:focus,.nav ul a:active,.nav ul li.hover a
+	/* <- keeps the tab hover state on as the dropdown gets explored */ {
+	background: rgb(153, 51, 0);
+	color: rgb(255, 255, 255);
+	border: 2px solid rgb(111, 44, 10);
+	border-radius: 15px 15px 0px 0px;
+}
+
+.nav ul ul {
+	position: absolute;
+	top: 100%;
+	left: -9999em;
+	width: 180px;
+}
+
+.nav ul li:hover ul,.nav ul li.hover ul {
+	left: 0;
+}
+
+.nav ul ul li {
+	margin:0px;
+	border:0px;
+	float: none;
+	position: static;
+}
+
+.nav ul li:hover ul a,.nav ul li.hover ul a {
+	background: #f1f1f1;
+	color: blue;
+	border: 1px solid gray;
+	padding: 1px 10px;
+	width: 168px;
+	border-radius: 0px;
+	margin-top: -1px; /* collapses top border */
+}
+
+.nav ul li:hover ul a:hover,.nav ul li.hover ul a:hover,.nav ul li.hover ul a:focus,.nav ul li.hover ul a:active
+	{
+	background: pink;
+	color: rgb(153, 51, 0);
+}
